@@ -57,4 +57,4 @@
 | PPG_subj_55 | 45  | M      | y         | y         | 128         | 83           | 71         | E   | H   |
 | PPG_subj_56 | 46  | F      | y         | y         | 128         | 89           | 78         | E   | H   |
 | Average | 52,48214286
-| SD | 7,160475026
+| Standar Desviation | 7,160475026
