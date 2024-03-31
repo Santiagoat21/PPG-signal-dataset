@@ -6,7 +6,7 @@ This dataset is distributed in four formats:
 - .mat (MatLab).
 - .txt (Text file).
 - .yaml (YAML ain't Markup Language).
-## YAML
+### YAML
 There are two different libraries that allow you to interact with a .yaml file in Python: pyYAML and raumel.yaml which is a fork of the previous one.
 
 It allows you to store in a file and in a human-readable format, data that basically will be of the dictionary type (whose keys can only be strings) or lists. The values of the dictionary or list can be numeric, boolean, string, or another dictionary or list.
