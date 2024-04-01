@@ -42,7 +42,7 @@ The table presents detailed information on various health metrics for 56 subject
 
 
 You can see the information about the subjects [here](https://github.com/Santiagoat21/PPG-signal-dataset/blob/775ddd4d16536d81f37f74284fe41637013963a7/information_subj.md)
-##Made by
+## Made by
 -Erick Javier Arguello - erick.arguello00@usc.edu.co
 - Werner Gordon Uribe - werner.gordon00@usc.edu.co
 - Santiago Escobar Manrique - santiago.escobar01@usc.edu.co
