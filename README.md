@@ -11,17 +11,19 @@ There are two different libraries that allow you to interact with a .yaml file i
 
 It allows you to store in a file and in a human-readable format, data that basically will be of the dictionary type (whose keys can only be strings) or lists. The values of the dictionary or list can be numeric, boolean, string, or another dictionary or list.
   
-    signal: [...]             
-    id: "string id"       
-    age: int                 
-    gender: "M or F"          
-    diagnosed: "y or n"  
-    treatment: "y or n"  
-    sys_BP: int   
-    dis_BP: int  
-    HR: int   
-    JNC: "N, E or H"          
-    AHA: "N, E or H"
+    - signal: [...]               # Placeholder for signal data, likely an array
+    - record: "string record"     # Unique identifier for each record (string type)
+    - age: int                    # Age of the subject (integer type)
+    - gender: "M or F"            # Gender of the subject (M for male, F for female)
+    - diagnosed: "y or n"         # Indicates if the subject has been diagnosed (y for yes, n for no)
+    - treatment: "y or n"         # Indicates if the subject is under treatment (y for yes, n for no)
+    - systolic_BP: int                 # Systolic blood pressure of the subject (integer type)
+    - distolic_BP: int                 # Diastolic blood pressure of the subject (integer type)
+    - HR: int                     # Heart rate of the subject (integer type)
+    - JNC: "N, E or H"            # Blood pressure classification by JNC (N for normal, E for elevated, H for hypertension)
+    - AHA: "N, E or H"            # Blood pressure classification by AHA (N for normal, E for elevated, H for hypertension)
+
+
 Once you have read the above file with a YAML parser, what you will have is a "normal" python dictionary.
 ## Information about the subjects
 The table provides data regarding a population of subjects, each identified by a unique record number. Here's a breakdown of the columns and the type of data they contain:
