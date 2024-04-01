@@ -1,4 +1,4 @@
-| Record #    | Age | Gender | Diagnosed | Treatment | Systolic BP | Diastolic BP | Heart Rate | JNC | AHA |
+| Record      | Age | Gender | Diagnosed | Treatment | Systolic BP | Diastolic BP | Heart Rate | JNC | AHA |
 |-------------|-----|--------|-----------|-----------|-------------|--------------|------------|-----|-----|
 | PPG_subj_01 | 44  | M      | y         | n         | 124         | 83           | 76         | E   | H   |
 | PPG_subj_02 | 58  | M      | y         | y         | 115         | 75           | 84         | N   | N   |
