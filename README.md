@@ -2,27 +2,29 @@
 This dataset contains 56 records of PPG signals with a duration of 2 minutes each (fs = 100 Hz). None of the subjects were hospitalized, and data collection was carried out in a Laboratory. The data set aims to support the development of approaches to estimate blood pressure from the analysis of PPG signals.
 ## Data Files
 This dataset is distributed in four formats:
-- .csv (comma separated values). [download the PPG signal_csv folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_csv)
-- .mat (MatLab). [download the PPG signal_mat folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_mat)
-- .txt (Text file). [download the PPG signal_txt folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_txt)
-- .yaml (YAML ain't Markup Language). [download the PPG signal_yaml folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_yaml)
+- .csv (comma separated values). [PPG signal_csv folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_csv)
+- .mat (MatLab). [PPG signal_mat folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_mat)
+- .txt (Text file). [PPG signal_txt folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_txt)
+- .yaml (YAML ain't Markup Language). [PPG signal_yaml folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_yaml)
 ### YAML
 There are two different libraries that allow you to interact with a .yaml file in Python: pyYAML and raumel.yaml which is a fork of the previous one.
 
-It allows you to store in a file and in a human-readable format, data that basically will be of the dictionary type (whose keys can only be strings) or lists. The values of the dictionary or list can be numeric, boolean, string, or another dictionary or list.
+It allows you to store in a file and in a human-readable format, data that basically will be of the dictionary type (whose keys can only be strings) or lists. The values of the dictionary or list can be numeric, boolean, string, or another dictionary or list. Each of the yaml files contains signal data and subject information as follows:
   
-    - PPG_signal: [...]           # Placeholder for signal data, likely an array
-    - record: "string record"     # Unique identifier for each record (string type)
-    - age: int                    # Age of the subject (integer type)
-    - gender: "M or F"            # Gender of the subject (M for male, F for female)
-    - diagnosed: "y or n"         # Indicates if the subject has been diagnosed (y for yes, n for no)
-    - treatment: "y or n"         # Indicates if the subject is under treatment (y for yes, n for no)
-    - systolic_BP: int            # Systolic blood pressure of the subject (integer type)
-    - distolic_BP: int            # Diastolic blood pressure of the subject (integer type)
-    - HR: int                     # Heart rate of the subject (integer type)
-    - JNC: "N, E or H"            # Blood pressure classification by JNC (N for normal, E for elevated, H for hypertension)
-    - AHA: "N, E or H"            # Blood pressure classification by AHA (N for normal, E for elevated, H for hypertension)
-
+      - PPG_signal:
+        -
+          y:  [...]                 # Placeholder for signal data, likely an array
+      - record: "string record"     # Unique identifier for each record (string type)
+      - age: int                    # Age of the subject (integer type)
+      - gender: "M or F"            # Gender of the subject (M for male, F for female)
+      - diagnosed: "y or n"         # Indicates if the subject has been diagnosed (y for yes, n for no)
+      - treatment: "y or n"         # Indicates if the subject is under treatment (y for yes, n for no)
+      - systolic_BP: int            # Systolic blood pressure of the subject (integer type)
+      - distolic_BP: int            # Diastolic blood pressure of the subject (integer type)
+      - HR: int                     # Heart rate of the subject (integer type)
+      - JNC: "N, E or H"            # Blood pressure classification by JNC (N for normal, E for elevated, H for hypertension)
+      - AHA: "N, E or H"            # Blood pressure classification by AHA (N for normal, E for elevated, H for hypertension)
+  
 
 Once you have read the above file with a YAML parser, what you will have is a "normal" python dictionary.
 ## Information about the subjects
