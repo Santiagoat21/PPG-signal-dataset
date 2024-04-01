@@ -11,7 +11,7 @@ There are two different libraries that allow you to interact with a .yaml file i
 
 It allows you to store in a file and in a human-readable format, data that basically will be of the dictionary type (whose keys can only be strings) or lists. The values of the dictionary or list can be numeric, boolean, string, or another dictionary or list.
   
-    - signal: [...]               # Placeholder for signal data, likely an array
+    - PPG_signal: [...]           # Placeholder for signal data, likely an array
     - record: "string record"     # Unique identifier for each record (string type)
     - age: int                    # Age of the subject (integer type)
     - gender: "M or F"            # Gender of the subject (M for male, F for female)
@@ -48,6 +48,6 @@ You can see the information about the subjects [here](https://github.com/Santiag
 - Werner Gordon Uribe - werner.gordon00@usc.edu.co
 - Santiago Escobar Manrique - santiago.escobar01@usc.edu.co
 
-##References
+## References
 1. Como crear y leer archivos yaml en python? (s. f.). Stack Overflow En Español. https://es.stackoverflow.com/questions/151852/como-crear-y-leer-archivos-yaml-en-python
 2. Chobanian, A. V., Bakris, G. L., Black, H. R., Cushman, W. C., Green, L. A., Izzo Jr, J. L., ... & National High Blood Pressure Education Program Coordinating Committee. (2003). Seventh report of the joint national committee on prevention, detection, evaluation, and treatment of high blood pressure. hypertension, 42(6), 1206-1252.
