@@ -42,3 +42,11 @@ The table presents detailed information on various health metrics for 56 subject
 
 
 You can see the information about the subjects [here](https://github.com/Santiagoat21/PPG-signal-dataset/blob/775ddd4d16536d81f37f74284fe41637013963a7/information_subj.md)
+##Made by
+-Erick Javier Arguello - erick.arguello00@usc.edu.co
+- Werner Gordon Uribe - werner.gordon00@usc.edu.co
+- Santiago Escobar Manrique - santiago.escobar01@usc.edu.co
+
+##References
+1. Como crear y leer archivos yaml en python? (s. f.). Stack Overflow En Español. https://es.stackoverflow.com/questions/151852/como-crear-y-leer-archivos-yaml-en-python
+2. Chobanian, A. V., Bakris, G. L., Black, H. R., Cushman, W. C., Green, L. A., Izzo Jr, J. L., ... & National High Blood Pressure Education Program Coordinating Committee. (2003). Seventh report of the joint national committee on prevention, detection, evaluation, and treatment of high blood pressure. hypertension, 42(6), 1206-1252.
