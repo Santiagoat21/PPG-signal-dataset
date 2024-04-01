@@ -44,7 +44,7 @@ The table provides data regarding a population of subjects, each identified by a
 The table presents detailed information on various health metrics for 56 subjects, including their age, gender, diagnosis and treatment status, blood pressure readings, heart rate, and classifications based on medical standards (JNC and AHA)
 
 
-You can see the information about the subjects [here](https://github.com/Santiagoat21/PPG-signal-dataset/blob/775ddd4d16536d81f37f74284fe41637013963a7/information_subj.md)
+You can see the information about the subjects [here](https://github.com/Santiagoat21/PPG-signal-dataset/blob/a626b5d6ec4f94064f9ea033d11247adcd9cf7ab/information_subj.md)
 ## Made by
 - Erick Javier Arguello - erick.arguello00@usc.edu.co (Collaborator)
 - Werner Gordon Uribe - werner.gordon00@usc.edu.co
