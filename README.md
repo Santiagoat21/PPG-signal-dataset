@@ -2,10 +2,10 @@
 This dataset contains 56 records of PPG signals with a duration of 2 minutes each (fs = 100 Hz). None of the subjects were hospitalized, and data collection was carried out in a Laboratory. The data set aims to support the development of approaches to estimate blood pressure from the analysis of PPG signals.
 ## Data Files
 This dataset is distributed in four formats:
-- .csv (comma separated values).
-- .mat (MatLab).
-- .txt (Text file).
-- .yaml (YAML ain't Markup Language).
+- .csv (comma separated values). [download the PPG signal_csv folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_csv)
+- .mat (MatLab). [download the PPG signal_mat folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_mat)
+- .txt (Text file). [download the PPG signal_txt folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_txt)
+- .yaml (YAML ain't Markup Language). [download the PPG signal_yaml folder](https://github.com/Santiagoat21/PPG-signal-dataset/tree/91048ef243c5eb24083109be2c5ae49907af371d/PPG%20signal_yaml)
 ### YAML
 There are two different libraries that allow you to interact with a .yaml file in Python: pyYAML and raumel.yaml which is a fork of the previous one.
 
