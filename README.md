@@ -33,6 +33,7 @@ The table presents detailed information on various health metrics for 56 subject
 - **Systolic Blood Pressure (Systolic BP)**: Represents the systolic blood pressure of the subject.
 - **Diastolic Blood Pressure (Diastolic BP)**: Indicates the diastolic blood pressure of the subject.
 - **Heart Rate**: Shows the heart rate of the subject.
+
 Additionally, each subject is uniquely identified by a record number, and the average age across all subjects is approximately 52.48 years, with a standard deviation of about 7.16 years. The age range spans from a minimum of 44 years to a maximum of 65 years. The columns labeled “JNC” and “AHA” provide classifications of blood pressure according to the Eighth Joint National Committee and the American Heart Association, respectively.
 
 
